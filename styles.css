@@ -1,0 +1,111 @@
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #eceeed;
+}
+
+header img{
+    display: block;
+    margin: 2rem auto;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #363636;
+    padding: 10px 0px;
+    border-radius: 1rem;
+}
+
+nav li{
+    display: inline-block;
+}
+
+li a {
+    font-size: 1.2rem;
+    color:#f5f8f6;
+    text-decoration: none;
+    padding-inline: 5px;
+}
+
+li a:hover{
+    color: rgb(214, 214, 187);
+    text-decoration: underline;
+}
+
+main{
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 1.6rem;
+}
+
+.promotion {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    background-image: url(./images/pasta.jpg);
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.promotion h1{
+    font-weight: bold;
+    color: white;
+}
+
+.promotion p{
+    color: white;
+}
+
+h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+article{
+    flex: 1;
+}
+
+.card-section img{
+    max-width: 100%;
+    min-width: 200px;
+    height: auto;
+}
+
+.card-section article{
+    background-color: #f3e4d4;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.opening-hours ul{
+    list-style: none;
+}
+
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+.copyright{
+    text-align: right;
+    border-top: 1px solid black;
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
